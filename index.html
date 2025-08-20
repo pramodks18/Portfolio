@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <h1 class="logo">PRAMOD K S.</h1>
+         
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Projects</a></li>
+                <!-- <li><a href="#">Protfolio</a></li> -->
+                <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="row">
+            <div class="about-1">
+                  <div class="header-text">
+            <p>FullStack Developer</p>
+            <h1 > Hi , I'm  <span>Pramod K S </span>  </h1>
+        </div>
+            </div>
+            <div class="about-2">
+                 <img src="./image/bblack.png" alt="">
+            </div>
+        </div>
+          
+     
+    
+
+    </div>
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+<img src="./image/black.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>I am Pramod K S, a dedicated and detail-oriented Full Stack Java Developer from Shimoga. I hold a Bachelor’s degree in Information Science from SDM Institute of Technology, Ujire, and have completed my PUC and higher secondary education in Shimoga.
+I successfully completed a 6-month intensive training program at Pentagon Space Pvt. Ltd., Bangalore.As part of my academic journey, I developed a “Wildlife Tourism” event management web application during my final year. This project strengthened my expertise in front-end and back-end integration, database management, and responsive UI design, while enhancing my problem-solving and debugging skills.
+I am passionate about building scalable, efficient, and user-friendly applications, and I am eager to contribute my skills to innovative and impactful projects within your organization.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-content active-tab" id="skills">
+                    <ul>
+                        <li><span>Frontend Developer</span><br>Proficient in building responsive and user-friendly web interfaces using HTML5, CSS3, and JavaScript (ES6+). Experienced with React.js, state management, and API integration. Skilled in Bootstrap and Tailwind CSS, ensuring cross-browser compatibility and performance optimization. Familiar with Git/GitHub and best coding practices.</li>
+                        <li><span>Fullstack Java Developer</span><br> Proficient in Core Java, J2EE, SQL, and Spring Boot for building scalable backend systems.
+Experienced in RESTful API development, database management, and integration with frontend applications.
+Familiar with tools like Maven, Git/GitHub, and Jira for efficient development and collaboration.</li>
+                       </ul>
+                </div> 
+                <div class="tab-content" id="experience">
+                    <ul>
+                        <li><span>2025</span><br>Completed a 6-month intensive Full Stack Java Developer program at Pentagon Space, Bangalore, gaining hands-on expertise in frontend, backend, and database technologies.</li>
+                        <!-- <li><span>2023</span><br>intership as web developer</li> -->
+                       </ul>
+                </div> 
+                <div class="tab-content" id="education">
+                    <ul>
+                        <li><span>2025</span><br> Bachelor of Engineering in Information Science, SDM Institute of Technology, Ujire, graduated in 2025.</li>
+                        <li><span>2021</span><br>Completed Pre-University in Science, Vikas PU College, Shimoga, graduated in 2021.</li>
+                           <li><span>2019</span><br>Completed SSLC at St. Paul’s English School, Shimoga, graduated in 2019.</li>
+                       </ul>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Projects</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Wildlife Tourism</h2>
+               <p>Developed a full stack web application to facilitate wildlife tour booking and management. The platform enables users to register, browse tour packages, book safaris, accommodations, and guides, while providing an admin panel for efficient booking management. The project promotes eco-tourism and contributes to the digital transformation of the travel sector.</p>
+           
+            </div>
+            <div>
+                 <i class="fa-solid fa-code"></i>
+                <h2>BookMyShow</h2>
+               <p>Engineered a responsive BookMyShow clone leveraging HTML, CSS, JavaScript, and ReactJS.
+ Integrated dynamic rendering for movie listings, interactive seat selection, and booking workflows.
+ Optimized UI/UX for cross-device compatibility and performance efficiency.</p>
+          
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2> Student Information Management  </h2>
+               <p>Created a Student Information Management web application using Java, Servlets, JDBC, and the DAO pattern to perform user login, registration, and CRUD operations. Designed the frontend with HTML and CSS to provide a clean, user-friendly interface for managing student data. Applied basic MVC architecture and implemented the DAO layer to organize code, manage database operations, and connect with MySQL efficiently. Gained hands-on experience in full-stack development, including database connectivity, server-side logic, and frontend integration using Apache Tomcat</p>
+        
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p> <i class="fa-solid fa-paper-plane"></i>Pramodks1353@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>7019870182</p>
+            <div class="socila-icons">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/pramo_dpommi/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/pramod1353/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="./image/Pramodks-resume.pdf" download class="btn btn2">&nbsp;Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder=" Your Name" required>
+                    <input type="email" name="Email" placeholder=" Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+               
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <P>Thank You<i class="fa-solid fa-heart"></i></P>
+
+    </div>
+</div>
+
+<script>
+    var tablinks =document.getElementsByClassName("tab-links");
+    var tabcontents =document.getElementsByClassName("tab-content");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+    
+<script>
+    var sidemeu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+}
+ function closemenu(){
+        sidemeu.style.right="-200px";
+}
+
+
+</script>
+</body>
+</html>
